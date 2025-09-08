@@ -1,7 +1,6 @@
 package com.GYY_GIS.factory;
 
 public class SimpleCoffeeFactory {
-    public Coffee createCoffee(String type) {
         Coffee coffee = null;
         switch (type) {
             case "American": {
@@ -17,8 +16,6 @@ public class SimpleCoffeeFactory {
             }
         }
         coffee.getName();
-        coffee.addMilk();
-        coffee.addSugar();
         return coffee;
     }
 }
