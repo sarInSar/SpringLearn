@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--1.导入spring坐标，在pom文件中-->
+
+    <!--2.配置bean(对象)(id+具体的类)-->
+    <bean id="bookDao" class="com.GYY_GIS.dao.impl.BookDaoImpl"/>
+    <bean id="bookService" class="com.GYY_GIS.service.impl.BookServiceImpl">
+        <!--7.配置依赖关系,property表示当前标签配置的属性，name表示创建的对象名，ref表示依赖的beanID-->
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+
+
+
+</beans>
