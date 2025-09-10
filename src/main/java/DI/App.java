@@ -1,7 +1,7 @@
-package com.GYY_GIS;
+package DI;
 
-import com.GYY_GIS.service.BookService;
-import com.GYY_GIS.service.impl.BookServiceImpl;
+import DI.service.BookService;
+import DI.service.impl.BookServiceImpl;
 
 /**
  * Hello world!

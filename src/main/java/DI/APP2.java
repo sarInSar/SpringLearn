@@ -1,5 +1,6 @@
-import com.GYY_GIS.dao.BookDao;
-import com.GYY_GIS.service.BookService;
+package DI;
+
+import DI.service.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

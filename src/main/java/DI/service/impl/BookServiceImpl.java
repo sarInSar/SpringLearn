@@ -1,7 +1,7 @@
-package com.GYY_GIS.service.impl;
+package DI.service.impl;
 
-import com.GYY_GIS.dao.BookDao;
-import com.GYY_GIS.service.BookService;
+import DI.dao.BookDao;
+import DI.service.BookService;
 
 public class BookServiceImpl implements BookService {
     public BookServiceImpl() {

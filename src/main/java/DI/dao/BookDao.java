@@ -1,4 +1,4 @@
-package com.GYY_GIS.dao;
+package DI.dao;
 
 public interface BookDao {
     public void save();

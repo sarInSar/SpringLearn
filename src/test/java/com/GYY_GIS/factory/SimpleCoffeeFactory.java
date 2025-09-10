@@ -1,7 +1,9 @@
 package com.GYY_GIS.factory;
 
-public class SimpleCoffeeFactory {
-        Coffee coffee = null;
+public  class SimpleCoffeeFactory {
+    private static Coffee coffee = null;
+
+    public static Coffee createCoffee(String type) {
         switch (type) {
             case "American": {
                 coffee = new AmericanCoffee();
@@ -18,4 +20,6 @@ public class SimpleCoffeeFactory {
         coffee.getName();
         return coffee;
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.GYY_GIS.service;
+package DI.service;
 
 public interface BookService {
     public void save();

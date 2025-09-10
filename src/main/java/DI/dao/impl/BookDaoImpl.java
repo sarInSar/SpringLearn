@@ -1,6 +1,6 @@
-package com.GYY_GIS.dao.impl;
+package DI.dao.impl;
 
-import com.GYY_GIS.dao.BookDao;
+import DI.dao.BookDao;
 
 public class BookDaoImpl implements BookDao {
     @Override
